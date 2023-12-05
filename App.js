@@ -24,8 +24,7 @@ function HomeStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={HomeScreen} />
-      {/* Adicione mais telas para a stack da Home se necessário */}
-    </Stack.Navigator>
+      </Stack.Navigator>
   );
 }
 
